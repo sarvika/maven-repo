@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
+  <meta name="author" content="Creative Tim">
+  <title>Sarvika Maven Central</title>
+  <!-- Favicon -->
+  <link href="./assets/img/brand/favicon.ico" rel="icon" type="image/png">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <!-- Icons -->
+  <link href="./assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+  <link href="./assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Main CSS -->
+  <link type="text/css" href="./assets/css/style.css?v=1.0.0" rel="stylesheet">
+  <link type="text/css" href="./assets/css/one-light.css?v=1.0.0" rel="stylesheet">
+
+  <style>
+  .code .hljs {
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-bottom: -20px;
+}
+
+#artifacts .btn {
+    text-transform: none !important;
+}
+</style>
+</head>
+
+<body>
+  <header class="header-global">
+    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light">
+      <div class="container">
+        <!-- <a class="navbar-brand mr-lg-5" href="./index.html">
+          <img src="./assets/img/brand/sarvika.png">
+      </a> -->
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="position-relative">
+      <section class="section section section-shaped my-0 overflow-hidden">
+        <div class="shape shape-style-1 bg-gradient-warning shape-skew">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="container py-0">
+          <div class="row row-grid align-items-center">
+            <div class="col-lg-12 order-lg-1">
+              <div class="d-flex px-3">
+                <div>
+                  <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                    <i class="ni ni-building text-primary"></i>
+                  </div>
+                </div>
+                <div class="pl-4">
+                  <h4 class="display-3 text-white">Sarvika Maven Central</h4>
+                  <h2 class="text-white">The home to all artifacts built under <u><a style="color: white;" class="btn-link" href="https://opensource.sarvika.com">Sarvika Opensource Project</a></u></h2>
+                </div>
+              </div>
+              <div class="card shadow shadow-lg--hover mt-5">
+                <div class="card-body">
+                  <div class="d-flex px-3">
+                    <div>
+                      <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                        <i class="ni ni-satisfied"></i>
+                      </div>
+                    </div>
+                    <div class="pl-4">
+                      <h5 class="title text-success">Awesome Support</h5>
+                      <p>Any artifacts that are uploaded to our maven central could be found here. You can easily search them and generate code to include them as dependencies!</p>
+                      <a href="#artifacts">Click here to see all artifacts...</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="section section-components pb-0" id="section-components">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <!-- Basic elements -->
+            <h2 class="mb-5">
+              <span>Add the repository to your project</span>
+            </h2>
+<pre class="code">
+            <code class="xml">
+&lt;repositories&gt;
+    &lt;repository&gt;
+        &lt;id&gt;sarvika-maven-repo&lt;/id&gt;
+        &lt;url&gt;https://rawgit.com/sarvika/maven-repo/master&lt;/url&gt;
+        &lt;releases&gt;
+            &lt;enabled&gt;true&lt;/enabled&gt;
+        &lt;/releases&gt;
+        &lt;snapshots&gt;
+            &lt;enabled&gt;true&lt;/enabled&gt;
+        &lt;/snapshots&gt;
+    &lt;/repository&gt;
+&lt;/repositories&gt;
+            </code>
+        </pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-components pb-0" id="section-components">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <!-- Basic elements -->
+            <h2 class="mb-5">
+              <span>All available artifacts</span>
+            </h2>
+            <!-- <div class="form-group">
+                                  <div class="input-group input-group-alternative mb-4">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text"><i class="ni ni-zoom-split-in"></i></span>
+                                    </div>
+                                    <input class="form-control form-control-alternative" placeholder="Search ... groupId:artifactId:version" type="text">
+                                  </div>
+                                </div> -->
+            <div id="artifacts">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer skewed">
+    <!-- <div class="container container-lg">
+      <div class="row">
+        <div class="col-md-6 mb-5 mb-md-0">
+          <div class="card card-lift -hover shadow border-0">
+            <a href="#" title="Landing Page">
+              <img src="image" class="card-img">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 mb-5 mb-lg-0">
+          <div class="card card-lift- -hover shadow border-0">
+            <a href="#" title="Profile Page">
+              <img src="image" class="card-img">
+            </a>
+          </div>
+        </div>
+      </div>
+  </div> -->
+    <div class="container">
+      <div class="row row-grid align-items-center my-md">
+        <div class="col-lg-6">
+          <h3 class="text-primary font-weight-light mb-2">Thank you for supporting us!</h3>
+          <h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
+        </div>
+        <div class="col-lg-6 text-lg-center btn-wrapper">
+          <a target="_blank" href="https://www.facebook.com/realbucksavage" class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip" data-original-title="Like us">
+            <i class="fa fa-facebook-square"></i>
+          </a>
+          <a target="_blank" href="https://github.com/sarvika" class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip" data-original-title="Star on Github">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <hr>
+      <div class="row align-items-center justify-content-md-between">
+        <div class="col-md-6">
+          <div class="copyright">
+            &copy; 2018
+            <a href="http://sarvika.com" target="_blank">Sarvika Technologies Pvt. Ltd.</a>.
+          </div>
+        </div>
+        <!--<div class="col-md-6">
+          <ul class="nav nav-footer justify-content-end">
+            <li class="nav-item">
+              <a href="http://sarvika.com" class="nav-link" target="_blank">Sarvika Technologies</a>
+            </li>
+            <li class="nav-item">
+              <a href="http://sarvika.com" class="nav-link" target="_blank">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="http://sarvika.com" class="nav-link" target="_blank">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/sarvika" class="nav-link" target="_blank">MIT License</a>
+            </li>
+          </ul>
+      </div> -->
+
+<div class="modal fade" id="dependencyModal" tabindex="-1" role="dialog" aria-labelledby="dependencyModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="dependencyModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <pre class="code">
+                      <code id="modalCode" class="xml">
+                      </code>
+                  </pre>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- Core -->
+  <script src="./assets/js/highlight.pack.js"></script>
+  <script src="./assets/vendor/jquery/jquery.min.js"></script>
+  <script src="./assets/vendor/popper/popper.min.js"></script>
+  <script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="./assets/vendor/headroom/headroom.min.js"></script>
+  <!-- Optional JS -->
+  <script src="./assets/vendor/onscreen/onscreen.min.js"></script>
+  <script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
+  <script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+  <!-- Argon JS -->
+  <script src="./assets/js/argon.js?v=1.0.0"></script>
+  <script src="./assets/js/artifacts.js?v=1.0.0"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</body>
+
+</html>
