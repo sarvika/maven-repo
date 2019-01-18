@@ -1,9 +1,12 @@
 [
-    {
-        "groupId": "io.sarvika",
-        "artifactId": "lifecycle",
-        "versions": [
-            "1.0"
-        ]
-    }
+  {
+    "groupId": "io.sarvika",
+    "artifactId": "lifecycle",
+    "versions": ["1.0"]
+  },
+  {
+    "groupId": "io.sarvika.opensource",
+    "artifactId": "cxml-jaxb-model",
+    "versions": ["1.0"]
+  }
 ]
